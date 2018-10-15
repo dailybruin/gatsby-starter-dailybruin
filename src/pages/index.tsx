@@ -1,8 +1,21 @@
 import * as React from 'react'
-import { Article, Byline, Footer } from '@dailybruin/lux'
+import { graphql } from 'gatsby'
+import { Article, Byline, Footer, Head } from '@dailybruin/lux'
 
-const IndexPage = () => (
+export const query = graphql`
+  indexQuery {
+    site {
+      siteMetadata {
+        siteName
+        description
+        url
+      }
+    }
+  }
+`
+const IndexPage = ({ data }) => (
   <>
+    <Head {...data.site.siteMetadata} />
     <h1>Hi people</h1>
     <Byline authors={['Tanner Walters', 'Mackenzie Possee', 'Jacob Preal']} />
     <Article
