@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    name: 'Gatsby Default Starter',
+    siteName: 'Gatsby Default Starter',
     description: '',
     url: '',
   },

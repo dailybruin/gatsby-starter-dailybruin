@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import { Article, Byline, Footer, Head } from '@dailybruin/lux'
 
 export const query = graphql`
-  indexQuery {
+  query {
     site {
       siteMetadata {
         siteName
