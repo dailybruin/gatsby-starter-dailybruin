@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import { Article, Byline, Footer, Head } from '@dailybruin/lux'
+import { Article, Byline, CoverPhoto, Footer, Head } from '@dailybruin/lux'
 
 export const query = graphql`
   query {
@@ -16,7 +16,7 @@ export const query = graphql`
 const IndexPage = ({ data }) => (
   <>
     <Head {...data.site.siteMetadata} />
-    <h1>Hi people</h1>
+    <CoverPhoto />
     <Byline authors={['Tanner Walters', 'Mackenzie Possee', 'Jacob Preal']} />
     <Article
       dropcap={true}
