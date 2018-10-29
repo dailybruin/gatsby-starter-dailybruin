@@ -13,7 +13,7 @@
     "daily bruin"
   ],
   "dependencies": {
-    "@dailybruin/lux": "1.3.0",
+    "@dailybruin/lux": "1.5.1",
     "@types/react": "16.4.16",
     "gatsby": "2.0.22",
     "gatsby-plugin-react-helmet": "3.0.0",
