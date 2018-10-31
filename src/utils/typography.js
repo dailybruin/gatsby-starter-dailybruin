@@ -5,20 +5,12 @@ import 'normalize.css'
 const typography = new Typography({
   googleFonts: [
     {
-      name: 'Buenard',
-      styles: ['700'],
-    },
-    {
-      name: 'Inconsolata',
+      name: 'Libre Baskerville',
       styles: ['400'],
     },
-    {
-      name: 'EB Garamond',
-      styles: ['700'],
-    },
   ],
-  headerFontFamily: ['Buenard', 'serif'],
-  bodyFontFamily: ['Inconsolata', 'monospace'],
+  headerFontFamily: ['Georgia', 'serif'],
+  bodyFontFamily: ['Libre Baskerville', 'serif'],
 })
 
 export default typography
