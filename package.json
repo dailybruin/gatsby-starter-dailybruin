@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-dailybruin",
+  "name": "@dailybruin/gatsby-starter-dailybruin",
   "description": "The starter kit to make a Daily Bruin online feature.",
   "version": "1.0.0",
   "license": "AGPL-3.0",
