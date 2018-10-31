@@ -5,7 +5,8 @@
   "author": "Daily Bruin Online <online@dailybruin.com>",
   "scripts": {
     "start": "gatsby develop -p 1234",
-    "build": "gatsby build --prefix-paths"
+    "build": "gatsby build",
+    "build:prefix-paths": "gatsby build --prefix-paths"
   },
   "keywords": [
     "gatsby",

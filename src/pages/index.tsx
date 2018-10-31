@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import { Article, Byline, CoverPhoto, Footer, Head } from '@dailybruin/lux'
+import { Article, CoverPhoto, Footer, Head } from '@dailybruin/lux'
 
 export const query = graphql`
   query {
@@ -16,8 +16,13 @@ export const query = graphql`
 const IndexPage = ({ data }) => (
   <>
     <Head {...data.site.siteMetadata} />
-    <CoverPhoto />
-    <Byline authors={['Tanner Walters', 'Mackenzie Possee', 'Jacob Preal']} />
+    <CoverPhoto
+      headline="Gene Block starts meme factory"
+      authors={['Tanner Walters', 'Mackenzie Possee', 'Jacob Preal']}
+      imageURL="https://chancellor.ucla.edu/wp-content/uploads/2018/07/ChancellorBlock_1366x912_acf_cropped.jpg"
+      xPosition="start"
+      yPosition="center"
+    />
     <Article
       dropcap={true}
       content={[
