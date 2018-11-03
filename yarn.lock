@@ -800,10 +800,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@dailybruin/gatsby-source-kerckhoff@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@dailybruin/gatsby-source-kerckhoff/-/gatsby-source-kerckhoff-1.0.6.tgz#49b26ccf97bfd771f9b9803b2d53e9e46f2e7e8c"
-  integrity sha512-v3FSBh1T2J5mAhbSeaYwAvOAt07PJIdVWROXHF7l9s0feuwIiXepScGq16J33n146DGJjeepi23Rl2lthUmlgA==
+"@dailybruin/gatsby-source-kerckhoff@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@dailybruin/gatsby-source-kerckhoff/-/gatsby-source-kerckhoff-1.1.0.tgz#91a5bbad97b8e3805a494235b8fcb3e42c6020f5"
+  integrity sha512-G7cduS7ZO1moyfQX8mo77r+JEOWonCfEN/vAoKD1xn2Zw2kWUVZcJk9wO0BJHHqyjrbzgNP8Xw+AbRd2CfnyDA==
   dependencies:
     "@types/node" "^10.12.1"
     "@types/node-fetch" "^2.1.2"
