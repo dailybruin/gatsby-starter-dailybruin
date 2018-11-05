@@ -1,18 +1,27 @@
+const slugify = require('slugify')
+
+const siteName = 'SITE_NAME'
+const description = 'SITE_DESCRIPTION'
+const year = 'CURRENT_YEAR'
+const trackingId = 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID'
+
+const url = `https://features.dailybruin.com/${year}/${slugify(siteName)}`
+
 module.exports = {
   siteMetadata: {
-    siteName: 'Gatsby Default Starter',
-    description: '',
-    url: '',
+    siteName,
+    description,
+    url,
   },
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GatsbyJS',
-        short_name: 'GatsbyJS',
+        name: siteName,
+        short_name: siteName,
         start_url: '/',
-        background_color: '#f7f0eb',
-        theme_color: '#a2466c',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
         display: 'browser',
         icon: 'src/images/db-logo.png',
       },
@@ -35,7 +44,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
+        trackingId,
         head: false,
         anonymize: true,
       },
