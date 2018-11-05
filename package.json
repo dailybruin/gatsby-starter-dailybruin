@@ -5,7 +5,7 @@
   "license": "AGPL-3.0",
   "author": "Daily Bruin Online <online@dailybruin.com>",
   "scripts": {
-    "start": "gatsby develop -p 1234",
+    "start": "gatsby develop --open -p 1234",
     "build": "gatsby build",
     "build:prefix-paths": "gatsby build --prefix-paths"
   },
