@@ -2,6 +2,8 @@ const slugify = require('slugify')
 
 const siteName = 'SITE_NAME'
 const description = 'SITE_DESCRIPTION'
+const image =
+  'https://chancellor.ucla.edu/wp-content/uploads/2018/07/ChancellorBlock_1366x912_acf_cropped.jpg'
 const year = 'CURRENT_YEAR'
 const trackingId = 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID'
 
