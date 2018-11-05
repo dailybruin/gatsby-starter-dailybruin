@@ -20,5 +20,13 @@ module.exports = {
         slug: 'online.demoaml',
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
+        head: false,
+        anonymize: true,
+      },
+    },
   ],
 }
