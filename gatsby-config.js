@@ -14,6 +14,7 @@ module.exports = {
     siteName,
     description,
     url,
+    image,
   },
   plugins: [
     {
