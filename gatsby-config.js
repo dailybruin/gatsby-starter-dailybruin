@@ -5,6 +5,18 @@ module.exports = {
     url: '',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'GatsbyJS',
+        short_name: 'GatsbyJS',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#a2466c',
+        display: 'browser',
+        icon: 'src/images/db-logo.png',
+      },
+    },
     'gatsby-plugin-typescript',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
