@@ -47,23 +47,22 @@ export default function ArticleGridPage({data}){
   return(
   <>
   <div
-    style={{
-      margin:'0 auto',
-      maxWidth:1080,
-      padding:'0px 1.0875rem 1.45 rem',
-      paddingTop:0,
-    }}
+    className={css`
+      margin: 0 auto;
+      max-width: 1080px;
+      padding: 0px 1.0875rem 1.45 rem;
+      padding-top: 0px;
+    `}
     >
   <Head {...data.site.siteMetadata} />
   <div
-    style={{
-      paddingTop:45,
-      width: '100%',
-      textAlign: 'center',
-    }}
+    className={css`
+      padding-top:45px;
+      width: 100%;
+      text-align: center;
+      `
+    }
     >
-    
-   
   <Headline text="Article Grid Gatsby Starter Page"/>
   </div>
     {articleGrids}
