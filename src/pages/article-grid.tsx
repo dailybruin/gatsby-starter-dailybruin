@@ -7,8 +7,6 @@ import {
   ArticleGrid,
   convertEdgesToArticles,
 } from '@dailybruin/lux'
-import * as uniq from 'lodash.uniq'
-import capitalizeSection from '../utils/capitalizeSection'
 import { css } from 'react-emotion'
 
 export const query = graphql`
@@ -38,11 +36,7 @@ export const query = graphql`
 `
 
 export default function ArticleGridPage({ data }) {
-  const sections = uniq(
-    data.allGoogleSheetRow.edges.map(edge =>
-      capitalizeSection(edge.node.section)
-    )
-  )
+  const sections =
 
   const articleGrids = sections.map((section, i) => {
     const articles = convertEdgesToArticles(
