@@ -8,6 +8,7 @@
     "formulahendry.auto-rename-tag",
     "paulmolluzzo.convert-css-in-js",
     "kumar-harsh.graphql-for-vscode",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig"
   ]
 }

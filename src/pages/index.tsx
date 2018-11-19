@@ -1,6 +1,13 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import { Article, CoverPhoto, Footer, Head } from '@dailybruin/lux'
+import {
+  Article,
+  CoverPhoto,
+  Footer,
+  Head,
+  XPosition,
+  YPosition,
+} from '@dailybruin/lux'
 
 export const query = graphql`
   query {
@@ -29,8 +36,8 @@ const IndexPage = ({ data }) => (
       headline={data.kerckhoffArticle.headline}
       authors={data.kerckhoffArticle.author}
       imageURL="https://chancellor.ucla.edu/wp-content/uploads/2018/07/ChancellorBlock_1366x912_acf_cropped.jpg"
-      xPosition="start"
-      yPosition="center"
+      xPosition={XPosition.Center}
+      yPosition={YPosition.Center}
     />
     <Article dropcap={true} content={data.kerckhoffArticle.content} />
     <Footer developers="Nathan Smith" copyrightYear={2018} />

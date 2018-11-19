@@ -51,5 +51,11 @@ module.exports = {
         anonymize: true,
       },
     },
+    {
+      resolve: 'gatsby-source-published-google-sheets',
+      options: {
+        sheetID: '1TJVrlFP0zPViE63jbPGZXGI1aixPwLYS6OdenLml76g',
+      },
+    },
   ],
 }
