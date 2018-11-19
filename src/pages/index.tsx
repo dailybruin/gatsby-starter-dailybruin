@@ -1,7 +1,13 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import { Article, CoverPhoto, Footer, Head } from '@dailybruin/lux'
-import { XPosition, YPosition } from '@dailybruin/lux/src/components/CoverPhoto'
+import {
+  Article,
+  CoverPhoto,
+  Footer,
+  Head,
+  XPosition,
+  YPosition,
+} from '@dailybruin/lux'
 
 export const query = graphql`
   query {

@@ -6,6 +6,7 @@ import {
   Headline,
   ArticleGrid,
   convertEdgesToArticles,
+  extractSectionsFromArticleEdges,
 } from '@dailybruin/lux'
 import { css } from 'react-emotion'
 
@@ -36,7 +37,7 @@ export const query = graphql`
 `
 
 export default function ArticleGridPage({ data }) {
-  const sections =
+  const sections = extractSectionsFromArticleEdges(data.allGoogleSheetRow.edges)
 
   const articleGrids = sections.map((section, i) => {
     const articles = convertEdgesToArticles(
