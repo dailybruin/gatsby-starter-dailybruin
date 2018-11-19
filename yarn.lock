@@ -800,7 +800,7 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@dailybruin/gatsby-source-kerckhoff@^1.1.1":
+"@dailybruin/gatsby-source-kerckhoff@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@dailybruin/gatsby-source-kerckhoff/-/gatsby-source-kerckhoff-1.1.1.tgz#cdf751a789e0626875588b8d8f28efbfb8b9ead7"
   integrity sha512-kkLWK+sPdf1vbEQI9Eg2y1KNrmZhFq+8X6mAol6RsTSKVTBRh63pgzpLNNW6g0rMaSBT0+LrMvenktATBf/n0g==
@@ -3756,14 +3756,14 @@ emojis-list@^2.0.0:
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
   integrity sha1-TapNnbAPmBmIDHn6RXrlsJof04k=
 
-emotion-server@^9.2.12:
+emotion-server@9.2.12, emotion-server@^9.2.12:
   version "9.2.12"
   resolved "https://registry.yarnpkg.com/emotion-server/-/emotion-server-9.2.12.tgz#aaaaa04843108943d1ce5a796e0bc40b06a3223e"
   integrity sha512-Bhjdl7eNoIeiAVa2QPP5d+1nP/31SiO/K1P/qI9cdXCydg91NwGYmteqhhge8u7PF8fLGTEVQfcPwj21815eBw==
   dependencies:
     create-emotion-server "^9.2.12"
 
-emotion@^9.2.12:
+emotion@9.2.12, emotion@^9.2.12:
   version "9.2.12"
   resolved "https://registry.yarnpkg.com/emotion/-/emotion-9.2.12.tgz#53925aaa005614e65c6e43db8243c843574d1ea9"
   integrity sha512-hcx7jppaI8VoXxIWEhxpDW7I+B4kq9RNzQLmsrF6LY8BGKqe2N+gFAQr0EfuFucFlPs2A9HM4+xNj4NeqEWIOQ==
@@ -4734,14 +4734,14 @@ gatsby-link@^2.0.6:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
-gatsby-plugin-emotion@^2.0.5, gatsby-plugin-emotion@^2.0.6:
+gatsby-plugin-emotion@2.0.6, gatsby-plugin-emotion@^2.0.5:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-2.0.6.tgz#5909476c43073f764429d7559fcfb136449026cf"
   integrity sha512-RrItjdW+nAv8jthYtLiQ8PPy+ipetODMJlzvzRuG4wFhflODEJIIyC7265/0rNHBe+XXVV8PVL5vd3AbNTv+zg==
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-google-analytics@^2.0.7:
+gatsby-plugin-google-analytics@2.0.7:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.7.tgz#22ac5fe3a226c19bd523997cb3891ab0d3454e37"
   integrity sha512-BJXtj+LryPvntQ3Z1IVWi/WsZIIrC8a8OFsSdW7ivhaxMloCNH3Pm4wA9K09v1OljLbXSNUr46qkaBPUVC7shg==
@@ -8233,7 +8233,7 @@ react-dom@16.6.3:
     prop-types "^15.6.2"
     scheduler "^0.11.2"
 
-react-emotion@^9.2.12:
+react-emotion@9.2.12, react-emotion@^9.2.12:
   version "9.2.12"
   resolved "https://registry.yarnpkg.com/react-emotion/-/react-emotion-9.2.12.tgz#74d1494f89e22d0b9442e92a33ca052461955c83"
   integrity sha512-qt7XbxnEKX5sZ73rERJ92JMbEOoyOwG3BuCRFRkXrsJhEe+rFBRTljRw7yOLHZUCQC4GBObZhjXIduQ8S0ZpYw==
@@ -9003,7 +9003,7 @@ slice-ansi@1.0.0:
   dependencies:
     is-fullwidth-code-point "^2.0.0"
 
-slugify@^1.3.1, slugify@^1.3.2:
+slugify@1.3.2, slugify@^1.3.1:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.3.2.tgz#b9aac7a964b94319871cf3f6e2cd06d47ee218aa"
   integrity sha512-RB7T2QO4+F8zc5UA+yujQb8V5GDmyiGzCW7e/x5CyKUEx0xzI9Hz5ptOS85GDBHlDx6LDooyHxw5FwKkximL5Q==
