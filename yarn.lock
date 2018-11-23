@@ -810,12 +810,12 @@
     node-fetch "^2.2.0"
     typescript "^3.1.4"
 
-"@dailybruin/lux@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@dailybruin/lux/-/lux-1.7.0.tgz#bfbd3c8cc25f4746b29471a02e89a233d97f2377"
-  integrity sha512-nXCA0H7R3J8D/m9QjVhj12BTFdr74JaSPzNpYlVjAeRFKU7A8eSm6JtpUgYlteF8N+Bf6SYQDzzqdO+fuTWFJg==
+"@dailybruin/lux@1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@dailybruin/lux/-/lux-1.7.1.tgz#86c17366eaac3e34f29d9a5231f14e9226319488"
+  integrity sha512-oqLqf6BG/dzziycSLpptqieQU67lXV3eNv0b/ifzbv7S+jJpyvgAMY+hUmwT9H3pir/GHSFCBz7igb3weq/Zyg==
   dependencies:
-    "@types/react" "16.4.18"
+    "@types/react" "16.7.7"
     "@types/react-dom" "16.0.9"
     "@types/react-helmet" "^5.0.7"
     "@types/webfontloader" "^1.6.29"
@@ -1008,10 +1008,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@16.4.18":
-  version "16.4.18"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.18.tgz#2e28a2e7f92d3fa7d6a65f2b73275c3e3138a13d"
-  integrity sha512-eFzJKEg6pdeaukVLVZ8Xb79CTl/ysX+ExmOfAAqcFlCCK5TgFDD9kWR0S18sglQ3EmM8U+80enjUqbfnUyqpdA==
+"@types/react@16.7.7":
+  version "16.7.7"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.7.tgz#1e5e23e7dd922968ed4b484cdec00a5402c9f31b"
+  integrity sha512-dJiq7CKxD1XJ/GqmbnsQisFnzG4z5lntKBw9X9qeSrguxFbrrhGa8cK9s0ONBp8wL1EfGfofEDVhjen26U46pw==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
