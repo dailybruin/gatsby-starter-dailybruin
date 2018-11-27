@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-microsoft-contrib",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "interface-name": [true, "never-prefix"],
+    "ordered-imports": false,
+    "missing-jsdoc": false,
+    "no-default-export": false,
+    "newline-before-return": false,
+    "typedef": false,
+    "function-name": false,
+    "variable-name": false,
+    "export-name": false
+  }
+}
